@@ -1,0 +1,22 @@
+input{
+    background: none !important;
+    width: 100%;
+}
+
+body{
+    background: #f5f5f5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body::before{
+    content: 'It has everything that google have. Just type somthing';
+    font-size: 1.5em;
+    z-index: -1;
+    position: absolute;
+    top: 30px;
+    /* opacity: 0   ; */
+}
